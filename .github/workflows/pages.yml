@@ -4,7 +4,7 @@ on:
     branches: [main]
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 concurrency:
@@ -19,6 +19,23 @@ jobs:
         with:
           node-version: '22'
       - run: npm install --no-audit --no-fund
+      - name: Mirror official Phonon worker and WASM into the repository
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p vendor
+          rm -rf vendor/phonon
+          cp -a node_modules/phonon-tts vendor/phonon
+          test -s vendor/phonon/index.js
+          test -s vendor/phonon/worker.js
+          find vendor/phonon -name '*.wasm' | grep -q .
+          git add -f vendor/phonon
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Bundle Phonon browser worker and WASM for both Pages sources"
+            git push origin HEAD:main
+          fi
       - run: npm run build
       - uses: actions/configure-pages@v5
         with:
