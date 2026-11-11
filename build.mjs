@@ -1,0 +1,16 @@
+import fs from 'node:fs';
+import path from 'node:path';
+const root=process.cwd(),dist=path.join(root,'dist');
+const pkg=path.join(root,'node_modules','phonon-tts');
+if(!fs.existsSync(path.join(pkg,'index.js')))throw Error('phonon-tts is missing; run npm install');
+fs.rmSync(dist,{recursive:true,force:true});
+fs.mkdirSync(dist,{recursive:true});
+fs.copyFileSync(path.join(root,'index.html'),path.join(dist,'index.html'));
+const target=path.join(dist,'vendor','phonon');
+fs.mkdirSync(path.dirname(target),{recursive:true});
+fs.cpSync(pkg,target,{recursive:true});
+for(const name of ['index.js','worker.js'])if(!fs.existsSync(path.join(target,name)))throw Error('Missing phonon-tts '+name);
+const wasm=[];function scan(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,entry.name);if(entry.isDirectory())scan(p);else if(entry.name.endsWith('.wasm'))wasm.push(p)}}scan(target);
+if(!wasm.length)throw Error('No Phonon .wasm files copied: refusing broken deployment');
+fs.writeFileSync(path.join(dist,'.nojekyll'),'');
+console.log(`DreamWorld build complete: phonon worker and ${wasm.length} WASM binaries hosted alongside index.html`);
