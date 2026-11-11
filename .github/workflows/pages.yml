@@ -36,3 +36,15 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deploy
         uses: actions/deploy-pages@v4
+      - name: Verify live Phonon files, WASM, and voice catalog
+        shell: bash
+        run: |
+          set -euo pipefail
+          base="https://tbenitz.github.io/DreamWorld-Bedtime-Stories"
+          for path in vendor/phonon/index.js vendor/phonon/worker.js vendor/phonon/wasm/phonon_tts_bg.wasm voices.json; do
+            url="$base/$path"
+            echo "Checking $url"
+            curl --fail --location --silent --show-error --retry 10 --retry-all-errors --retry-delay 4 --output /tmp/dreamworld-asset "$url"
+            test -s /tmp/dreamworld-asset
+            echo "OK $path ($(wc -c < /tmp/dreamworld-asset) bytes)"
+          done
