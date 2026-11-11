@@ -1,8 +1,35 @@
 # DreamWorld — AI 3D Bedtime Storybook
 
-**Build:** 0.1.4 (full-viewport story reader and Phonon diagnostics) · **Date:** 2026-11-11  
+**Build:** 0.1.6 (real Phonon working in GitHub-hosted Chromium, pending Chromebook approval) · **Date:** 2026-11-11  
 **Primary artifact:** `index.html` — single-file app source; Phonon requires its co-hosted worker and WASM package, installed by the included GitHub Actions deployment build.  
 **Target:** Google Chrome on an 8 GB Chromebook, deployed via HTTPS on GitHub Pages.
+
+## v0.1.6 — November 11, 2026: real deployed speech synthesis verified
+
+**Root cause of the reported `Missing vendor/phonon/index.js (HTTP 503)`:** GitHub ran both its legacy branch-based Pages publisher and the custom Actions publisher. Only the Actions artifact contained the Phonon worker/WASM runtime. Depending on the latest publisher, the site could lose the files.
+
+**Fixes made in DreamWorld-Bedtime-Stories (and nowhere else):**
+
+- Bundled the official `phonon-tts@0.7.0` JavaScript module, worker, four WASM binaries, and licenses directly under `vendor/phonon/` in the **DreamWorld repository**, so either Pages publisher includes them.
+- The GitHub Actions build now mirrors that runtime and verifies HTTP access to its published JS, worker, WASM, and catalog.
+- Removed the misleading HTTP `HEAD` preflight that reported 503 as proof a file was absent. Direct import now follows the working Phonon browser integration pattern.
+- Added a local `voices.json` with 102 catalog voice records and official sample paths. Sample playback no longer requires listing the Hugging Face directory on every click.
+- Fixed the selected narrator **Reuben** to use the actual bundled voice exposed by the model as **`default`**, rather than passing the unsupported literal `Reuben` voice ID to the synth engine.
+
+**Real automated test results on deployed GitHub Pages:**
+
+- Live GitHub Actions deployment fetched `vendor/phonon/index.js` (17,020 B), `worker.js` (17,980 B), `wasm/phonon_tts_bg.wasm` (3,978,747 B), and `voices.json` (32,347 B) successfully over HTTPS (HTTP 200).
+- A separate **real Chromium browser** test retrieved the public 31M model, loaded the local 102-voice catalog, generated **82,560 actual PCM samples / 3.4 seconds** of Phonon speech, and started playback through Web Audio.
+- The browser test also imported a short complete story, opened it in DreamWorld's reader, pressed **Play**, and successfully generated story narration using the bundled default/Reuben voice mapping.
+- This is real on-device browser model inference, *not* mocked audio. It establishes functioning synthesis in GitHub's Chromium runner, **not yet performance or playback quality on your particular Chromebook**.
+
+**Tracker:** DW-016, DW-019, DW-082 and DW-088 have been promoted only to **Tested — Awaiting User Approval**. No feature has been marked Approved. Other previously reported defects remain unapproved unless separately tested.
+
+**Use the live site:** https://tbenitz.github.io/DreamWorld-Bedtime-Stories/ . Confirm **v0.1.6**, open Settings → Test narrator audio or a saved story and press Play. Opening a lone `file://` copy cannot provide the module worker runtime.
+
+**History-of-War:** accessed read-only as a working API reference. No edits were made there.
+
+---
 
 ## v0.1.4 — November 11, 2026: immersive reader and narration validation
 
