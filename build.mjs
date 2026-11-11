@@ -5,7 +5,7 @@ const pkg=path.join(root,'node_modules','phonon-tts');
 if(!fs.existsSync(path.join(pkg,'index.js')))throw Error('phonon-tts is missing; run npm install');
 fs.rmSync(dist,{recursive:true,force:true});
 fs.mkdirSync(dist,{recursive:true});
-fs.copyFileSync(path.join(root,'index.html'),path.join(dist,'index.html'));
+for(const name of ['index.html','voices.json'])fs.copyFileSync(path.join(root,name),path.join(dist,name));
 const target=path.join(dist,'vendor','phonon');
 fs.mkdirSync(path.dirname(target),{recursive:true});
 fs.cpSync(pkg,target,{recursive:true});
