@@ -1,0 +1,1026 @@
+{
+  "source": "Gradium Phonon catalog",
+  "count": 102,
+  "voices": [
+    {
+      "name": "Zoey",
+      "voice_id": "NbpkqMVS3CJeq2j8",
+      "language": "en",
+      "locale": "en-us",
+      "gender": "female",
+      "filename": "voices/NbpkqMVS3CJeq2j8.safetensors",
+      "sample": "samples/en/en-us/female/1_zoey_NbpkqMVS3CJeq2j8.ogg",
+      "description": "en-us female"
+    },
+    {
+      "name": "Juniper",
+      "voice_id": "NIWIOv5vTi5eRMj8",
+      "language": "en",
+      "locale": "en-us",
+      "gender": "female",
+      "filename": "voices/NIWIOv5vTi5eRMj8.safetensors",
+      "sample": "samples/en/en-us/female/2_juniper_NIWIOv5vTi5eRMj8.ogg",
+      "description": "en-us female"
+    },
+    {
+      "name": "Everly",
+      "voice_id": "vjFyp2BcCyTlUmYb",
+      "language": "en",
+      "locale": "en-us",
+      "gender": "female",
+      "filename": "voices/vjFyp2BcCyTlUmYb.safetensors",
+      "sample": "samples/en/en-us/female/3_everly_vjFyp2BcCyTlUmYb.ogg",
+      "description": "en-us female"
+    },
+    {
+      "name": "Harper",
+      "voice_id": "4SZHfMpw-p46Ywgs",
+      "language": "en",
+      "locale": "en-us",
+      "gender": "female",
+      "filename": "voices/4SZHfMpw-p46Ywgs.safetensors",
+      "sample": "samples/en/en-us/female/4_harper_4SZHfMpw-p46Ywgs.ogg",
+      "description": "en-us female"
+    },
+    {
+      "name": "Hadley",
+      "voice_id": "bXwrkHhURL1VFJdG",
+      "language": "en",
+      "locale": "en-us",
+      "gender": "female",
+      "filename": "voices/bXwrkHhURL1VFJdG.safetensors",
+      "sample": "samples/en/en-us/female/5_hadley_bXwrkHhURL1VFJdG.ogg",
+      "description": "en-us female"
+    },
+    {
+      "name": "Delia",
+      "voice_id": "nGzMHMPAWGaJFHOo",
+      "language": "en",
+      "locale": "en-us",
+      "gender": "female",
+      "filename": "voices/nGzMHMPAWGaJFHOo.safetensors",
+      "sample": "samples/en/en-us/female/6_delia_nGzMHMPAWGaJFHOo.ogg",
+      "description": "en-us female"
+    },
+    {
+      "name": "Easton",
+      "voice_id": "LMDIYE0Oa377Qh6Z",
+      "language": "en",
+      "locale": "en-us",
+      "gender": "male",
+      "filename": "voices/LMDIYE0Oa377Qh6Z.safetensors",
+      "sample": "samples/en/en-us/male/1_easton_LMDIYE0Oa377Qh6Z.ogg",
+      "description": "en-us male"
+    },
+    {
+      "name": "Micah",
+      "voice_id": "40QrMVgAxFiUnP9f",
+      "language": "en",
+      "locale": "en-us",
+      "gender": "male",
+      "filename": "voices/40QrMVgAxFiUnP9f.safetensors",
+      "sample": "samples/en/en-us/male/2_micah_40QrMVgAxFiUnP9f.ogg",
+      "description": "en-us male"
+    },
+    {
+      "name": "Trevor",
+      "voice_id": "0zLApsZfVLLNaEGl",
+      "language": "en",
+      "locale": "en-us",
+      "gender": "male",
+      "filename": "voices/0zLApsZfVLLNaEGl.safetensors",
+      "sample": "samples/en/en-us/male/3_trevor_0zLApsZfVLLNaEGl.ogg",
+      "description": "en-us male"
+    },
+    {
+      "name": "Russell",
+      "voice_id": "_6Aslh2DxfmnRLmP",
+      "language": "en",
+      "locale": "en-us",
+      "gender": "male",
+      "filename": "voices/_6Aslh2DxfmnRLmP.safetensors",
+      "sample": "samples/en/en-us/male/4_russell__6Aslh2DxfmnRLmP.ogg",
+      "description": "en-us male"
+    },
+    {
+      "name": "Preston",
+      "voice_id": "qIxlZ7Ei8KvWlyQH",
+      "language": "en",
+      "locale": "en-us",
+      "gender": "male",
+      "filename": "voices/qIxlZ7Ei8KvWlyQH.safetensors",
+      "sample": "samples/en/en-us/male/5_preston_qIxlZ7Ei8KvWlyQH.ogg",
+      "description": "en-us male"
+    },
+    {
+      "name": "Miles",
+      "voice_id": "d9XCyhjo4JhkHF1d",
+      "language": "en",
+      "locale": "en-us",
+      "gender": "male",
+      "filename": "voices/d9XCyhjo4JhkHF1d.safetensors",
+      "sample": "samples/en/en-us/male/6_miles_d9XCyhjo4JhkHF1d.ogg",
+      "description": "en-us male"
+    },
+    {
+      "name": "Maeve",
+      "voice_id": "6PWnV0Nq4wu7RVBT",
+      "language": "en",
+      "locale": "en-gb",
+      "gender": "female",
+      "filename": "voices/6PWnV0Nq4wu7RVBT.safetensors",
+      "sample": "samples/en/en-gb/female/1_maeve_6PWnV0Nq4wu7RVBT.ogg",
+      "description": "en-gb female"
+    },
+    {
+      "name": "Freya",
+      "voice_id": "GgfEkEJtxZR7gnpy",
+      "language": "en",
+      "locale": "en-gb",
+      "gender": "female",
+      "filename": "voices/GgfEkEJtxZR7gnpy.safetensors",
+      "sample": "samples/en/en-gb/female/2_freya_GgfEkEJtxZR7gnpy.ogg",
+      "description": "en-gb female"
+    },
+    {
+      "name": "Pippa",
+      "voice_id": "uem82D50GRv2Dwma",
+      "language": "en",
+      "locale": "en-gb",
+      "gender": "female",
+      "filename": "voices/uem82D50GRv2Dwma.safetensors",
+      "sample": "samples/en/en-gb/female/3_pippa_uem82D50GRv2Dwma.ogg",
+      "description": "en-gb female"
+    },
+    {
+      "name": "Elodie-Rose",
+      "voice_id": "y9bQqIDnyxwqK01t",
+      "language": "en",
+      "locale": "en-gb",
+      "gender": "female",
+      "filename": "voices/y9bQqIDnyxwqK01t.safetensors",
+      "sample": "samples/en/en-gb/female/4_elodie_rose_y9bQqIDnyxwqK01t.ogg",
+      "description": "en-gb female"
+    },
+    {
+      "name": "Imogen",
+      "voice_id": "gDT1nz7Ie36ZhL-C",
+      "language": "en",
+      "locale": "en-gb",
+      "gender": "female",
+      "filename": "voices/gDT1nz7Ie36ZhL-C.safetensors",
+      "sample": "samples/en/en-gb/female/5_imogen_gDT1nz7Ie36ZhL-C.ogg",
+      "description": "en-gb female"
+    },
+    {
+      "name": "Lottie",
+      "voice_id": "m9MxpY6IUGXtWp76",
+      "language": "en",
+      "locale": "en-gb",
+      "gender": "female",
+      "filename": "voices/m9MxpY6IUGXtWp76.safetensors",
+      "sample": "samples/en/en-gb/female/6_lottie_m9MxpY6IUGXtWp76.ogg",
+      "description": "en-gb female"
+    },
+    {
+      "name": "Bryony",
+      "voice_id": "gfP44RlHwr2kEwk7",
+      "language": "en",
+      "locale": "en-gb",
+      "gender": "female",
+      "filename": "voices/gfP44RlHwr2kEwk7.safetensors",
+      "sample": "samples/en/en-gb/female/7_bryony_gfP44RlHwr2kEwk7.ogg",
+      "description": "en-gb female"
+    },
+    {
+      "name": "Alfie",
+      "voice_id": "X6NceqF285Gr04gb",
+      "language": "en",
+      "locale": "en-gb",
+      "gender": "male",
+      "filename": "voices/X6NceqF285Gr04gb.safetensors",
+      "sample": "samples/en/en-gb/male/1_alfie_X6NceqF285Gr04gb.ogg",
+      "description": "en-gb male"
+    },
+    {
+      "name": "Hugh",
+      "voice_id": "YyKcxPG7iIgS3jsK",
+      "language": "en",
+      "locale": "en-gb",
+      "gender": "male",
+      "filename": "voices/YyKcxPG7iIgS3jsK.safetensors",
+      "sample": "samples/en/en-gb/male/2_hugh_YyKcxPG7iIgS3jsK.ogg",
+      "description": "en-gb male"
+    },
+    {
+      "name": "Edwin",
+      "voice_id": "zUCxzrOrugTSis03",
+      "language": "en",
+      "locale": "en-gb",
+      "gender": "male",
+      "filename": "voices/zUCxzrOrugTSis03.safetensors",
+      "sample": "samples/en/en-gb/male/3_edwin_zUCxzrOrugTSis03.ogg",
+      "description": "en-gb male"
+    },
+    {
+      "name": "Spencer",
+      "voice_id": "JOW0vchyswkQUMDS",
+      "language": "en",
+      "locale": "en-gb",
+      "gender": "male",
+      "filename": "voices/JOW0vchyswkQUMDS.safetensors",
+      "sample": "samples/en/en-gb/male/4_spencer_JOW0vchyswkQUMDS.ogg",
+      "description": "en-gb male"
+    },
+    {
+      "name": "Toby",
+      "voice_id": "dME3IWyZBvmh1n1q",
+      "language": "en",
+      "locale": "en-gb",
+      "gender": "male",
+      "filename": "voices/dME3IWyZBvmh1n1q.safetensors",
+      "sample": "samples/en/en-gb/male/5_toby_dME3IWyZBvmh1n1q.ogg",
+      "description": "en-gb male"
+    },
+    {
+      "name": "Teddy",
+      "voice_id": "Zn7g6NxLqXlJb7Qi",
+      "language": "en",
+      "locale": "en-gb",
+      "gender": "male",
+      "filename": "voices/Zn7g6NxLqXlJb7Qi.safetensors",
+      "sample": "samples/en/en-gb/male/6_teddy_Zn7g6NxLqXlJb7Qi.ogg",
+      "description": "en-gb male"
+    },
+    {
+      "name": "Noémie",
+      "voice_id": "FXxJ9mANRq6BCTX5",
+      "language": "fr",
+      "locale": "fr-fr",
+      "gender": "female",
+      "filename": "voices/FXxJ9mANRq6BCTX5.safetensors",
+      "sample": "samples/fr/fr-fr/female/1_noemie_FXxJ9mANRq6BCTX5.ogg",
+      "description": "fr-fr female"
+    },
+    {
+      "name": "Coralie",
+      "voice_id": "ZeSg853xFACESHHI",
+      "language": "fr",
+      "locale": "fr-fr",
+      "gender": "female",
+      "filename": "voices/ZeSg853xFACESHHI.safetensors",
+      "sample": "samples/fr/fr-fr/female/2_coralie_ZeSg853xFACESHHI.ogg",
+      "description": "fr-fr female"
+    },
+    {
+      "name": "Tiphaine",
+      "voice_id": "0fvH6XAKvA748v2v",
+      "language": "fr",
+      "locale": "fr-fr",
+      "gender": "female",
+      "filename": "voices/0fvH6XAKvA748v2v.safetensors",
+      "sample": "samples/fr/fr-fr/female/3_tiphaine_0fvH6XAKvA748v2v.ogg",
+      "description": "fr-fr female"
+    },
+    {
+      "name": "Maëlys",
+      "voice_id": "s048cR1l2Jmu4k3B",
+      "language": "fr",
+      "locale": "fr-fr",
+      "gender": "female",
+      "filename": "voices/s048cR1l2Jmu4k3B.safetensors",
+      "sample": "samples/fr/fr-fr/female/4_maelys_s048cR1l2Jmu4k3B.ogg",
+      "description": "fr-fr female"
+    },
+    {
+      "name": "Orianne",
+      "voice_id": "TUk4X11S6UytB3G6",
+      "language": "fr",
+      "locale": "fr-fr",
+      "gender": "female",
+      "filename": "voices/TUk4X11S6UytB3G6.safetensors",
+      "sample": "samples/fr/fr-fr/female/5_orianne_TUk4X11S6UytB3G6.ogg",
+      "description": "fr-fr female"
+    },
+    {
+      "name": "Solène",
+      "voice_id": "YhIHaAfQ0cQPDV9R",
+      "language": "fr",
+      "locale": "fr-fr",
+      "gender": "female",
+      "filename": "voices/YhIHaAfQ0cQPDV9R.safetensors",
+      "sample": "samples/fr/fr-fr/female/6_solene_YhIHaAfQ0cQPDV9R.ogg",
+      "description": "fr-fr female"
+    },
+    {
+      "name": "Ninon",
+      "voice_id": "qtPlUYAZ4EJDuWMm",
+      "language": "fr",
+      "locale": "fr-fr",
+      "gender": "female",
+      "filename": "voices/qtPlUYAZ4EJDuWMm.safetensors",
+      "sample": "samples/fr/fr-fr/female/7_ninon_qtPlUYAZ4EJDuWMm.ogg",
+      "description": "fr-fr female"
+    },
+    {
+      "name": "Lilou",
+      "voice_id": "4iKxBtHBRzr1YOph",
+      "language": "fr",
+      "locale": "fr-fr",
+      "gender": "female",
+      "filename": "voices/4iKxBtHBRzr1YOph.safetensors",
+      "sample": "samples/fr/fr-fr/female/8_lilou_4iKxBtHBRzr1YOph.ogg",
+      "description": "fr-fr female"
+    },
+    {
+      "name": "Hélène",
+      "voice_id": "Vvakv7iWZCUrBooR",
+      "language": "fr",
+      "locale": "fr-fr",
+      "gender": "female",
+      "filename": "voices/Vvakv7iWZCUrBooR.safetensors",
+      "sample": "samples/fr/fr-fr/female/9_helene_Vvakv7iWZCUrBooR.ogg",
+      "description": "fr-fr female"
+    },
+    {
+      "name": "Augustin",
+      "voice_id": "Tek4tJXiX6_yvXq7",
+      "language": "fr",
+      "locale": "fr-fr",
+      "gender": "male",
+      "filename": "voices/Tek4tJXiX6_yvXq7.safetensors",
+      "sample": "samples/fr/fr-fr/male/1_augustin_Tek4tJXiX6_yvXq7.ogg",
+      "description": "fr-fr male"
+    },
+    {
+      "name": "Arnaud",
+      "voice_id": "aXMVwiUhITMrwPzd",
+      "language": "fr",
+      "locale": "fr-fr",
+      "gender": "male",
+      "filename": "voices/aXMVwiUhITMrwPzd.safetensors",
+      "sample": "samples/fr/fr-fr/male/2_arnaud_aXMVwiUhITMrwPzd.ogg",
+      "description": "fr-fr male"
+    },
+    {
+      "name": "Jules",
+      "voice_id": "YKeBw3OV1RgpdhLh",
+      "language": "fr",
+      "locale": "fr-fr",
+      "gender": "male",
+      "filename": "voices/YKeBw3OV1RgpdhLh.safetensors",
+      "sample": "samples/fr/fr-fr/male/3_jules_YKeBw3OV1RgpdhLh.ogg",
+      "description": "fr-fr male"
+    },
+    {
+      "name": "Baptiste",
+      "voice_id": "rqqeErpASHVQXHDd",
+      "language": "fr",
+      "locale": "fr-fr",
+      "gender": "male",
+      "filename": "voices/rqqeErpASHVQXHDd.safetensors",
+      "sample": "samples/fr/fr-fr/male/4_baptiste_rqqeErpASHVQXHDd.ogg",
+      "description": "fr-fr male"
+    },
+    {
+      "name": "Lucien",
+      "voice_id": "LIv4NaG8ay4Mhqtd",
+      "language": "fr",
+      "locale": "fr-fr",
+      "gender": "male",
+      "filename": "voices/LIv4NaG8ay4Mhqtd.safetensors",
+      "sample": "samples/fr/fr-fr/male/5_lucien_LIv4NaG8ay4Mhqtd.ogg",
+      "description": "fr-fr male"
+    },
+    {
+      "name": "Marius",
+      "voice_id": "biuhvu17TxVKOcyy",
+      "language": "fr",
+      "locale": "fr-fr",
+      "gender": "male",
+      "filename": "voices/biuhvu17TxVKOcyy.safetensors",
+      "sample": "samples/fr/fr-fr/male/6_marius_biuhvu17TxVKOcyy.ogg",
+      "description": "fr-fr male"
+    },
+    {
+      "name": "Nele",
+      "voice_id": "2A2fFf8SkDEJ8nzx",
+      "language": "de",
+      "locale": "de-de",
+      "gender": "female",
+      "filename": "voices/2A2fFf8SkDEJ8nzx.safetensors",
+      "sample": "samples/de/de-de/female/1_nele_2A2fFf8SkDEJ8nzx.ogg",
+      "description": "de-de female"
+    },
+    {
+      "name": "Jette",
+      "voice_id": "4Mn9VfG2wsLLEzi5",
+      "language": "de",
+      "locale": "de-de",
+      "gender": "female",
+      "filename": "voices/4Mn9VfG2wsLLEzi5.safetensors",
+      "sample": "samples/de/de-de/female/2_jette_4Mn9VfG2wsLLEzi5.ogg",
+      "description": "de-de female"
+    },
+    {
+      "name": "Annika",
+      "voice_id": "p6Uutkyi3j2iNAUu",
+      "language": "de",
+      "locale": "de-de",
+      "gender": "female",
+      "filename": "voices/p6Uutkyi3j2iNAUu.safetensors",
+      "sample": "samples/de/de-de/female/3_annika_p6Uutkyi3j2iNAUu.ogg",
+      "description": "de-de female"
+    },
+    {
+      "name": "Jule",
+      "voice_id": "MxhgvuHuUER7qjmL",
+      "language": "de",
+      "locale": "de-de",
+      "gender": "female",
+      "filename": "voices/MxhgvuHuUER7qjmL.safetensors",
+      "sample": "samples/de/de-de/female/4_jule_MxhgvuHuUER7qjmL.ogg",
+      "description": "de-de female"
+    },
+    {
+      "name": "Lotta",
+      "voice_id": "MOrDPn052KUlnKXk",
+      "language": "de",
+      "locale": "de-de",
+      "gender": "female",
+      "filename": "voices/MOrDPn052KUlnKXk.safetensors",
+      "sample": "samples/de/de-de/female/5_lotta_MOrDPn052KUlnKXk.ogg",
+      "description": "de-de female"
+    },
+    {
+      "name": "Josefine",
+      "voice_id": "yadpmqsHVrYC0NJp",
+      "language": "de",
+      "locale": "de-de",
+      "gender": "female",
+      "filename": "voices/yadpmqsHVrYC0NJp.safetensors",
+      "sample": "samples/de/de-de/female/6_josefine_yadpmqsHVrYC0NJp.ogg",
+      "description": "de-de female"
+    },
+    {
+      "name": "Svea",
+      "voice_id": "Adoh4wA9tp5QXJi9",
+      "language": "de",
+      "locale": "de-de",
+      "gender": "female",
+      "filename": "voices/Adoh4wA9tp5QXJi9.safetensors",
+      "sample": "samples/de/de-de/female/7_svea_Adoh4wA9tp5QXJi9.ogg",
+      "description": "de-de female"
+    },
+    {
+      "name": "Anton",
+      "voice_id": "3ZKKapPOvuWFcw9f",
+      "language": "de",
+      "locale": "de-de",
+      "gender": "male",
+      "filename": "voices/3ZKKapPOvuWFcw9f.safetensors",
+      "sample": "samples/de/de-de/male/1_anton_3ZKKapPOvuWFcw9f.ogg",
+      "description": "de-de male"
+    },
+    {
+      "name": "Mirko",
+      "voice_id": "Xn9xDzqSSr4xGTNg",
+      "language": "de",
+      "locale": "de-de",
+      "gender": "male",
+      "filename": "voices/Xn9xDzqSSr4xGTNg.safetensors",
+      "sample": "samples/de/de-de/male/2_mirko_Xn9xDzqSSr4xGTNg.ogg",
+      "description": "de-de male"
+    },
+    {
+      "name": "Mats",
+      "voice_id": "Kf5m22mROozoMWj3",
+      "language": "de",
+      "locale": "de-de",
+      "gender": "male",
+      "filename": "voices/Kf5m22mROozoMWj3.safetensors",
+      "sample": "samples/de/de-de/male/3_mats_Kf5m22mROozoMWj3.ogg",
+      "description": "de-de male"
+    },
+    {
+      "name": "Henrik",
+      "voice_id": "yyS1KYWs6mXoEw7D",
+      "language": "de",
+      "locale": "de-de",
+      "gender": "male",
+      "filename": "voices/yyS1KYWs6mXoEw7D.safetensors",
+      "sample": "samples/de/de-de/male/4_henrik_yyS1KYWs6mXoEw7D.ogg",
+      "description": "de-de male"
+    },
+    {
+      "name": "Leon",
+      "voice_id": "20zdyYrQPzKlCwkk",
+      "language": "de",
+      "locale": "de-de",
+      "gender": "male",
+      "filename": "voices/20zdyYrQPzKlCwkk.safetensors",
+      "sample": "samples/de/de-de/male/5_leon_20zdyYrQPzKlCwkk.ogg",
+      "description": "de-de male"
+    },
+    {
+      "name": "Mika",
+      "voice_id": "R3uU1GTAZJotUhUs",
+      "language": "de",
+      "locale": "de-de",
+      "gender": "male",
+      "filename": "voices/R3uU1GTAZJotUhUs.safetensors",
+      "sample": "samples/de/de-de/male/6_mika_R3uU1GTAZJotUhUs.ogg",
+      "description": "de-de male"
+    },
+    {
+      "name": "Noa",
+      "voice_id": "b6FvJAiokjdqIti4",
+      "language": "es",
+      "locale": "es-es",
+      "gender": "female",
+      "filename": "voices/b6FvJAiokjdqIti4.safetensors",
+      "sample": "samples/es/es-es/female/1_noa_b6FvJAiokjdqIti4.ogg",
+      "description": "es-es female"
+    },
+    {
+      "name": "Lucía-Sol",
+      "voice_id": "3p0eIGbkmny71GlA",
+      "language": "es",
+      "locale": "es-es",
+      "gender": "female",
+      "filename": "voices/3p0eIGbkmny71GlA.safetensors",
+      "sample": "samples/es/es-es/female/2_lucia_sol_3p0eIGbkmny71GlA.ogg",
+      "description": "es-es female"
+    },
+    {
+      "name": "Candela",
+      "voice_id": "c9wqBDmQiBie5q6Y",
+      "language": "es",
+      "locale": "es-es",
+      "gender": "female",
+      "filename": "voices/c9wqBDmQiBie5q6Y.safetensors",
+      "sample": "samples/es/es-es/female/3_candela_c9wqBDmQiBie5q6Y.ogg",
+      "description": "es-es female"
+    },
+    {
+      "name": "Celia",
+      "voice_id": "rmLBOdHrfkFym9MM",
+      "language": "es",
+      "locale": "es-es",
+      "gender": "female",
+      "filename": "voices/rmLBOdHrfkFym9MM.safetensors",
+      "sample": "samples/es/es-es/female/4_celia_rmLBOdHrfkFym9MM.ogg",
+      "description": "es-es female"
+    },
+    {
+      "name": "Alba",
+      "voice_id": "u2UscyAnHilpiwmf",
+      "language": "es",
+      "locale": "es-es",
+      "gender": "female",
+      "filename": "voices/u2UscyAnHilpiwmf.safetensors",
+      "sample": "samples/es/es-es/female/5_alba_u2UscyAnHilpiwmf.ogg",
+      "description": "es-es female"
+    },
+    {
+      "name": "Alicia",
+      "voice_id": "4701YgRXjkBcg6sL",
+      "language": "es",
+      "locale": "es-es",
+      "gender": "female",
+      "filename": "voices/4701YgRXjkBcg6sL.safetensors",
+      "sample": "samples/es/es-es/female/6_alicia_4701YgRXjkBcg6sL.ogg",
+      "description": "es-es female"
+    },
+    {
+      "name": "Nerea",
+      "voice_id": "EQcQFGkYfMn5YJgx",
+      "language": "es",
+      "locale": "es-es",
+      "gender": "female",
+      "filename": "voices/EQcQFGkYfMn5YJgx.safetensors",
+      "sample": "samples/es/es-es/female/7_nerea_EQcQFGkYfMn5YJgx.ogg",
+      "description": "es-es female"
+    },
+    {
+      "name": "Marcos",
+      "voice_id": "jvPx8j8zLGQ3utZz",
+      "language": "es",
+      "locale": "es-es",
+      "gender": "male",
+      "filename": "voices/jvPx8j8zLGQ3utZz.safetensors",
+      "sample": "samples/es/es-es/male/1_marcos_jvPx8j8zLGQ3utZz.ogg",
+      "description": "es-es male"
+    },
+    {
+      "name": "Borja",
+      "voice_id": "tIjCgP8v3RY8UpgM",
+      "language": "es",
+      "locale": "es-es",
+      "gender": "male",
+      "filename": "voices/tIjCgP8v3RY8UpgM.safetensors",
+      "sample": "samples/es/es-es/male/2_borja_tIjCgP8v3RY8UpgM.ogg",
+      "description": "es-es male"
+    },
+    {
+      "name": "Iker",
+      "voice_id": "t-_TS1e-0GzDAX02",
+      "language": "es",
+      "locale": "es-es",
+      "gender": "male",
+      "filename": "voices/t-_TS1e-0GzDAX02.safetensors",
+      "sample": "samples/es/es-es/male/3_iker_t-_TS1e-0GzDAX02.ogg",
+      "description": "es-es male"
+    },
+    {
+      "name": "Nuno",
+      "voice_id": "fghJGlv90qu8OJ36",
+      "language": "es",
+      "locale": "es-es",
+      "gender": "male",
+      "filename": "voices/fghJGlv90qu8OJ36.safetensors",
+      "sample": "samples/es/es-es/male/4_nuno_fghJGlv90qu8OJ36.ogg",
+      "description": "es-es male"
+    },
+    {
+      "name": "Izan",
+      "voice_id": "Ejb29qHnSOK0cIHY",
+      "language": "es",
+      "locale": "es-es",
+      "gender": "male",
+      "filename": "voices/Ejb29qHnSOK0cIHY.safetensors",
+      "sample": "samples/es/es-es/male/5_izan_Ejb29qHnSOK0cIHY.ogg",
+      "description": "es-es male"
+    },
+    {
+      "name": "Guillermo",
+      "voice_id": "FaLVVqpFQcDOtq45",
+      "language": "es",
+      "locale": "es-es",
+      "gender": "male",
+      "filename": "voices/FaLVVqpFQcDOtq45.safetensors",
+      "sample": "samples/es/es-es/male/6_guillermo_FaLVVqpFQcDOtq45.ogg",
+      "description": "es-es male"
+    },
+    {
+      "name": "Rebeca",
+      "voice_id": "Sx8m6WdXBG06zwZT",
+      "language": "es",
+      "locale": "es-mx",
+      "gender": "female",
+      "filename": "voices/Sx8m6WdXBG06zwZT.safetensors",
+      "sample": "samples/es/es-mx/female/1_rebeca_Sx8m6WdXBG06zwZT.ogg",
+      "description": "es-mx female"
+    },
+    {
+      "name": "Regina",
+      "voice_id": "s58clrg2fe0MO7Y-",
+      "language": "es",
+      "locale": "es-mx",
+      "gender": "female",
+      "filename": "voices/s58clrg2fe0MO7Y-.safetensors",
+      "sample": "samples/es/es-mx/female/2_regina_s58clrg2fe0MO7Y-.ogg",
+      "description": "es-mx female"
+    },
+    {
+      "name": "Danae",
+      "voice_id": "evfxKSxpDIhmsNoq",
+      "language": "es",
+      "locale": "es-mx",
+      "gender": "female",
+      "filename": "voices/evfxKSxpDIhmsNoq.safetensors",
+      "sample": "samples/es/es-mx/female/3_danae_evfxKSxpDIhmsNoq.ogg",
+      "description": "es-mx female"
+    },
+    {
+      "name": "Azucena",
+      "voice_id": "KJpIQlbYrZPA4aLq",
+      "language": "es",
+      "locale": "es-mx",
+      "gender": "female",
+      "filename": "voices/KJpIQlbYrZPA4aLq.safetensors",
+      "sample": "samples/es/es-mx/female/4_azucena_KJpIQlbYrZPA4aLq.ogg",
+      "description": "es-mx female"
+    },
+    {
+      "name": "Jimena",
+      "voice_id": "qG5BXOJYrKEnXLIX",
+      "language": "es",
+      "locale": "es-mx",
+      "gender": "female",
+      "filename": "voices/qG5BXOJYrKEnXLIX.safetensors",
+      "sample": "samples/es/es-mx/female/5_jimena_qG5BXOJYrKEnXLIX.ogg",
+      "description": "es-mx female"
+    },
+    {
+      "name": "Ximena",
+      "voice_id": "VDwnGxAo68C8U8vC",
+      "language": "es",
+      "locale": "es-mx",
+      "gender": "female",
+      "filename": "voices/VDwnGxAo68C8U8vC.safetensors",
+      "sample": "samples/es/es-mx/female/6_ximena_VDwnGxAo68C8U8vC.ogg",
+      "description": "es-mx female"
+    },
+    {
+      "name": "Lalo",
+      "voice_id": "F05gqkzX7WhKVpSL",
+      "language": "es",
+      "locale": "es-mx",
+      "gender": "male",
+      "filename": "voices/F05gqkzX7WhKVpSL.safetensors",
+      "sample": "samples/es/es-mx/male/1_lalo_F05gqkzX7WhKVpSL.ogg",
+      "description": "es-mx male"
+    },
+    {
+      "name": "Aldo",
+      "voice_id": "ax7dW1XB0eiMfHgO",
+      "language": "es",
+      "locale": "es-mx",
+      "gender": "male",
+      "filename": "voices/ax7dW1XB0eiMfHgO.safetensors",
+      "sample": "samples/es/es-mx/male/2_aldo_ax7dW1XB0eiMfHgO.ogg",
+      "description": "es-mx male"
+    },
+    {
+      "name": "Yael",
+      "voice_id": "ALczEazoF4n6PmGl",
+      "language": "es",
+      "locale": "es-mx",
+      "gender": "male",
+      "filename": "voices/ALczEazoF4n6PmGl.safetensors",
+      "sample": "samples/es/es-mx/male/3_yael_ALczEazoF4n6PmGl.ogg",
+      "description": "es-mx male"
+    },
+    {
+      "name": "Ulises",
+      "voice_id": "G5HLUsQd659UtRe7",
+      "language": "es",
+      "locale": "es-mx",
+      "gender": "male",
+      "filename": "voices/G5HLUsQd659UtRe7.safetensors",
+      "sample": "samples/es/es-mx/male/4_ulises_G5HLUsQd659UtRe7.ogg",
+      "description": "es-mx male"
+    },
+    {
+      "name": "Leonel",
+      "voice_id": "BkuASiOJRrJEB5qA",
+      "language": "es",
+      "locale": "es-mx",
+      "gender": "male",
+      "filename": "voices/BkuASiOJRrJEB5qA.safetensors",
+      "sample": "samples/es/es-mx/male/5_leonel_BkuASiOJRrJEB5qA.ogg",
+      "description": "es-mx male"
+    },
+    {
+      "name": "Nico",
+      "voice_id": "PwgPEaweQILZdGc4",
+      "language": "es",
+      "locale": "es-mx",
+      "gender": "male",
+      "filename": "voices/PwgPEaweQILZdGc4.safetensors",
+      "sample": "samples/es/es-mx/male/6_nico_PwgPEaweQILZdGc4.ogg",
+      "description": "es-mx male"
+    },
+    {
+      "name": "Manuela-Lu",
+      "voice_id": "KgC2Nqnjj48NUiyV",
+      "language": "pt",
+      "locale": "pt-br",
+      "gender": "female",
+      "filename": "voices/KgC2Nqnjj48NUiyV.safetensors",
+      "sample": "samples/pt/pt-br/female/1_manuela_lu_KgC2Nqnjj48NUiyV.ogg",
+      "description": "pt-br female"
+    },
+    {
+      "name": "Isadora",
+      "voice_id": "CtNvKUUMrx1h56ih",
+      "language": "pt",
+      "locale": "pt-br",
+      "gender": "female",
+      "filename": "voices/CtNvKUUMrx1h56ih.safetensors",
+      "sample": "samples/pt/pt-br/female/2_isadora_CtNvKUUMrx1h56ih.ogg",
+      "description": "pt-br female"
+    },
+    {
+      "name": "Débora",
+      "voice_id": "K8mj96kYHMy8q3Hb",
+      "language": "pt",
+      "locale": "pt-br",
+      "gender": "female",
+      "filename": "voices/K8mj96kYHMy8q3Hb.safetensors",
+      "sample": "samples/pt/pt-br/female/3_debora_K8mj96kYHMy8q3Hb.ogg",
+      "description": "pt-br female"
+    },
+    {
+      "name": "Rafaela",
+      "voice_id": "6k6cRt7QJfm5ChrH",
+      "language": "pt",
+      "locale": "pt-br",
+      "gender": "female",
+      "filename": "voices/6k6cRt7QJfm5ChrH.safetensors",
+      "sample": "samples/pt/pt-br/female/4_rafaela_6k6cRt7QJfm5ChrH.ogg",
+      "description": "pt-br female"
+    },
+    {
+      "name": "Clarice",
+      "voice_id": "sGCMzFIA53ppIngM",
+      "language": "pt",
+      "locale": "pt-br",
+      "gender": "female",
+      "filename": "voices/sGCMzFIA53ppIngM.safetensors",
+      "sample": "samples/pt/pt-br/female/5_clarice_sGCMzFIA53ppIngM.ogg",
+      "description": "pt-br female"
+    },
+    {
+      "name": "Flávia",
+      "voice_id": "gOc90Rjmv5CobHCj",
+      "language": "pt",
+      "locale": "pt-br",
+      "gender": "female",
+      "filename": "voices/gOc90Rjmv5CobHCj.safetensors",
+      "sample": "samples/pt/pt-br/female/6_flavia_gOc90Rjmv5CobHCj.ogg",
+      "description": "pt-br female"
+    },
+    {
+      "name": "Davi",
+      "voice_id": "NuUr_x5V90hSHzCJ",
+      "language": "pt",
+      "locale": "pt-br",
+      "gender": "male",
+      "filename": "voices/NuUr_x5V90hSHzCJ.safetensors",
+      "sample": "samples/pt/pt-br/male/1_davi_NuUr_x5V90hSHzCJ.ogg",
+      "description": "pt-br male"
+    },
+    {
+      "name": "Igor",
+      "voice_id": "l7520SIXi14iEamd",
+      "language": "pt",
+      "locale": "pt-br",
+      "gender": "male",
+      "filename": "voices/l7520SIXi14iEamd.safetensors",
+      "sample": "samples/pt/pt-br/male/2_igor_l7520SIXi14iEamd.ogg",
+      "description": "pt-br male"
+    },
+    {
+      "name": "Kauã",
+      "voice_id": "6HftnVU1XqVBJS8t",
+      "language": "pt",
+      "locale": "pt-br",
+      "gender": "male",
+      "filename": "voices/6HftnVU1XqVBJS8t.safetensors",
+      "sample": "samples/pt/pt-br/male/3_kaua_6HftnVU1XqVBJS8t.ogg",
+      "description": "pt-br male"
+    },
+    {
+      "name": "Vitor",
+      "voice_id": "mWgyMRkFED70QxQv",
+      "language": "pt",
+      "locale": "pt-br",
+      "gender": "male",
+      "filename": "voices/mWgyMRkFED70QxQv.safetensors",
+      "sample": "samples/pt/pt-br/male/4_vitor_mWgyMRkFED70QxQv.ogg",
+      "description": "pt-br male"
+    },
+    {
+      "name": "Otávio",
+      "voice_id": "JYtmeaysoaR0Wybf",
+      "language": "pt",
+      "locale": "pt-br",
+      "gender": "male",
+      "filename": "voices/JYtmeaysoaR0Wybf.safetensors",
+      "sample": "samples/pt/pt-br/male/5_otavio_JYtmeaysoaR0Wybf.ogg",
+      "description": "pt-br male"
+    },
+    {
+      "name": "Marcelo",
+      "voice_id": "qDeAnE4L4bk0BRz1",
+      "language": "pt",
+      "locale": "pt-br",
+      "gender": "male",
+      "filename": "voices/qDeAnE4L4bk0BRz1.safetensors",
+      "sample": "samples/pt/pt-br/male/6_marcelo_qDeAnE4L4bk0BRz1.ogg",
+      "description": "pt-br male"
+    },
+    {
+      "name": "Captain Silas Blackwater",
+      "voice_id": "xPDpsV3F592srkjA",
+      "language": "en",
+      "locale": "characters",
+      "gender": "character",
+      "filename": "voices/xPDpsV3F592srkjA.safetensors",
+      "sample": "samples/en/characters/captain_silas_blackwater_xPDpsV3F592srkjA.ogg",
+      "description": "Character voice"
+    },
+    {
+      "name": "Morwenna of the Deep",
+      "voice_id": "nOykTmcH9ydsGGIc",
+      "language": "en",
+      "locale": "characters",
+      "gender": "character",
+      "filename": "voices/nOykTmcH9ydsGGIc.safetensors",
+      "sample": "samples/en/characters/morwenna_of_the_deep_nOykTmcH9ydsGGIc.ogg",
+      "description": "Character voice"
+    },
+    {
+      "name": "Old Mortlake",
+      "voice_id": "lX3LavMNdlIbgEHH",
+      "language": "en",
+      "locale": "characters",
+      "gender": "character",
+      "filename": "voices/lX3LavMNdlIbgEHH.safetensors",
+      "sample": "samples/en/characters/old_mortlake_lX3LavMNdlIbgEHH.ogg",
+      "description": "Character voice"
+    },
+    {
+      "name": "Azgorath",
+      "voice_id": "dGyGDKo2osj7h3s7",
+      "language": "en",
+      "locale": "characters",
+      "gender": "character",
+      "filename": "voices/dGyGDKo2osj7h3s7.safetensors",
+      "sample": "samples/en/characters/azgorath_dGyGDKo2osj7h3s7.ogg",
+      "description": "Character voice"
+    },
+    {
+      "name": "Fennick the Young Elf",
+      "voice_id": "cXoIXJ2llS8S0WOW",
+      "language": "en",
+      "locale": "characters",
+      "gender": "character",
+      "filename": "voices/cXoIXJ2llS8S0WOW.safetensors",
+      "sample": "samples/en/characters/fennick_the_young_elf_cXoIXJ2llS8S0WOW.ogg",
+      "description": "Character voice"
+    },
+    {
+      "name": "The Thing Under the Stairs",
+      "voice_id": "GXaSqMEmOg12OIYb",
+      "language": "en",
+      "locale": "characters",
+      "gender": "character",
+      "filename": "voices/GXaSqMEmOg12OIYb.safetensors",
+      "sample": "samples/en/characters/the_thing_under_the_stairs_GXaSqMEmOg12OIYb.ogg",
+      "description": "Character voice"
+    },
+    {
+      "name": "Vyrmathrax the Ancient",
+      "voice_id": "xO8xQo3BrB8FuI6J",
+      "language": "en",
+      "locale": "characters",
+      "gender": "character",
+      "filename": "voices/xO8xQo3BrB8FuI6J.safetensors",
+      "sample": "samples/en/characters/vyrmathrax_the_ancient_xO8xQo3BrB8FuI6J.ogg",
+      "description": "Character voice"
+    },
+    {
+      "name": "Grub the Ogre",
+      "voice_id": "cYtsRSxV5q9IMehn",
+      "language": "en",
+      "locale": "characters",
+      "gender": "character",
+      "filename": "voices/cYtsRSxV5q9IMehn.safetensors",
+      "sample": "samples/en/characters/grub_the_ogre_cYtsRSxV5q9IMehn.ogg",
+      "description": "Character voice"
+    },
+    {
+      "name": "Master Aldric",
+      "voice_id": "gSgG5Tor0GPEnqzC",
+      "language": "en",
+      "locale": "characters",
+      "gender": "character",
+      "filename": "voices/gSgG5Tor0GPEnqzC.safetensors",
+      "sample": "samples/en/characters/master_aldric_gSgG5Tor0GPEnqzC.ogg",
+      "description": "Character voice"
+    },
+    {
+      "name": "The Snow Queen",
+      "voice_id": "NIWoEurJHMJjyUTe",
+      "language": "en",
+      "locale": "characters",
+      "gender": "character",
+      "filename": "voices/NIWoEurJHMJjyUTe.safetensors",
+      "sample": "samples/en/characters/the_snow_queen_NIWoEurJHMJjyUTe.ogg",
+      "description": "Character voice"
+    },
+    {
+      "name": "Sir Bramwell",
+      "voice_id": "y2eiKxtQo2B67deU",
+      "language": "en",
+      "locale": "characters",
+      "gender": "character",
+      "filename": "voices/y2eiKxtQo2B67deU.safetensors",
+      "sample": "samples/en/characters/sir_bramwell_y2eiKxtQo2B67deU.ogg",
+      "description": "Character voice"
+    },
+    {
+      "name": "Fairy Godmother",
+      "voice_id": "QXNr0SvkukLB4wPq",
+      "language": "en",
+      "locale": "characters",
+      "gender": "character",
+      "filename": "voices/QXNr0SvkukLB4wPq.safetensors",
+      "sample": "samples/en/characters/fairy_godmother_QXNr0SvkukLB4wPq.ogg",
+      "description": "Character voice"
+    }
+  ]
+}
