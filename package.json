@@ -1,0 +1,15 @@
+{
+  "name": "dreamworld-3d-storybook",
+  "version": "0.1.4",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "phonon-tts": "0.7.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
